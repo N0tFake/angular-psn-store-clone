@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardPricingComponent implements OnInit {
 
+  @Input()
+  gameName:string = ""
 	@Input()
 	gameType:string ="Digital PS4"
 	@Input()

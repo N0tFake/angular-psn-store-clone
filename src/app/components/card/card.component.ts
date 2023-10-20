@@ -10,6 +10,8 @@ export class CardComponent implements OnInit {
 	@Input()
 	gameCover:string = ""
 	@Input()
+	gameName:string=""
+	@Input()
 	gameLabel:string=""
 	@Input()
 	gameType:string ="XPTO | PS4"
